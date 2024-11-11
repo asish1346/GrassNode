@@ -55,7 +55,7 @@ This repository contains the code for `GrassNode`, a bot designed to establish W
    socks5://username:password@hostname:port
    ```
 
-4. To run the `getgrass-bot`, execute the following command in your terminal:
+4. To run the `GrassNode`, execute the following command in your terminal:
 
    ```bash
    npm start
