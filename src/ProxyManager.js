@@ -3,12 +3,12 @@ const axios = require('axios');
 const fs = require('fs');
 
 const PROXY_SOURCES = {
-  'SERVER 1': 'https://cartofarts.com/Ashu/Grass/proxy1.txt',
-  'SERVER 2': 'https://cartofarts.com/Ashu/Grass/Proxy2.txt',
-  'SERVER 3': 'https://cartofarts.com/Ashu/Grass/Proxy3.txt',
-  'SERVER 4': 'https://cartofarts.com/Ashu/Grass/Proxy4.txt',
-  'SERVER 5': 'https://cartofarts.com/Ashu/Grass/proxy1.txt',
-  'SERVER 6': 'https://cartofarts.com/Ashu/Grass/proxy1.txt',
+  'SERVER 1': 'https://files.ramanode.top/airdrop/grass/server_1.txt',
+  'SERVER 2': 'https://files.ramanode.top/airdrop/grass/server_2.txt',
+  'SERVER 3': 'https://files.ramanode.top/airdrop/grass/server_3.txt',
+  'SERVER 4': 'https://files.ramanode.top/airdrop/grass/server_4.txt',
+  'SERVER 5': 'https://files.ramanode.top/airdrop/grass/server_5.txt',
+  'SERVER 6': 'https://files.ramanode.top/airdrop/grass/server_6.txt',
 };
 
 async function fetchProxies(url) {
